@@ -6,6 +6,18 @@ body {
   overflow: hidden;
 }
 
+.counter-wrapper {
+  width: 10%;
+  padding-top: 20px;
+}
+
+.counter {
+  background-color: rgb(204, 255, 255);
+  color: black;
+  border: 1px solid white;
+  box-shadow: 1px 1px 1px 1px black;
+}
+
 .title {
   background-color: rgb(204, 255, 255);
 }
@@ -38,7 +50,7 @@ button, .rain-btn, .shop-btn {
   font-size: 18px;
   font-family: monospace;
   border: 1px solid rgb(48, 214, 255);
-  box-shadow: 1px 1px 1px 1px;
+  box-shadow: 1px 1px 1px 1px black;
 }
 
 .rain-btn:hover {
