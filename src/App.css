@@ -1,38 +1,70 @@
-.App {
+body {
+  box-sizing: border-box;
   text-align: center;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.title {
+  background-color: rgb(204, 255, 255);
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.welcome {
+  font-family: monospace;
+  font-size: 18px;
+  text-shadow: black;
+  padding: 10px;
+  margin: 10px;
 }
 
-.App-header {
-  background-color: #282c34;
+.body-wrapper {
+  background-color: #121313;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+button, .rain-btn, .shop-btn {
+  background-color: rgb(204, 255, 255);
+  margin: 10px;
+  padding: 40px;
+  padding-left: 60px;
+  padding-right: 60px;
+  border-radius: 5%;
+  font-size: 18px;
+  font-family: monospace;
+  border: 1px solid black;
+  box-shadow: 1px 1px 1px 1px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.rain-btn:hover {
+  background-color: rgb(72, 88, 88);
+  color: white;
+  transition: 0.8s;
+}
+
+.shop-btn:hover {
+  background-color: rgb(72, 88, 88);
+  color: white;
+  transition: 0.8s;
+}
+
+.rain-btn:active {
+  background-color: rgb(122, 252, 252);
+  color: white;
+  transition: 0.3s;
+}
+
+.shop-btn:active {
+  background-color: rgb(122, 252, 252);
+  color: white;
+  transition: 0.3s;
+}
+
+.info {
+  cursor: help;
 }
