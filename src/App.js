@@ -12,9 +12,12 @@ const GREETINGS = [
   "Feeling lucky today?",
   "It's not gambling if you win every time!",
   "We love that you love clicking buttons!",
-  "This website was made without any ChatGPT, crazy right??",
-  "Thanks for visiting Rain Shop! Click away"
+  "This website was made without any ChatGPT, crazy right?",
+  "Thanks for visiting Rain Shop! Click away",
+  "What are you in the mood for?",
+  "Happiness is only a click away!"
 ];
+
 
 const RainShop = () => {
   const [welcome, setWelcome] = useState('');
@@ -34,8 +37,8 @@ const RainShop = () => {
       <div className="body-wrapper">
         <p className='welcome'>{welcome}</p>
         <header className="body">
-         <a class="info" title="Random Wiki Article">ℹ️</a><a href="https://simple.wikipedia.org/wiki/Special:Random" target="_blank" rel="noreferrer"><button className="rain-btn">Rain 🌧️</button></a>
-          <a href="https://imfeelingprimey.com" target="_blank" rel="noreferrer"><button className="shop-btn">Shop 💲</button></a><a class="info" title="Random Amazon Product">ℹ️</a>
+         <a title="Random Wiki Page" href="https://simple.wikipedia.org/wiki/Special:Random" target="_blank" rel="noreferrer"><button className="rain-btn">Rain 🌧️</button></a>
+          <a title="Random Amazon Product" href="https://imfeelingprimey.com" target="_blank" rel="noreferrer"><button className="shop-btn">Shop 💲</button></a>
         </header>
       </div>
     </div>
